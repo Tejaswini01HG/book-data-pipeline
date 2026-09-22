@@ -6,7 +6,7 @@ This project is an end-to-end book data pipeline developed using Python. It coll
 
 The project demonstrates the complete flow of data from web scraping to database storage, API access, data processing, CSV export, and visualization.
 
-## 2. End-to-End Pipeline
+## 2. End-to-End Pipeline 
 
 1.Books to Scrape
        
@@ -28,8 +28,8 @@ The project demonstrates the complete flow of data from web scraping to database
        
 8.Price vs Rating Graph
 
-3.FEATURES:
-
+ 3. Features
+    
 Scrapes the first 20 books from Books to Scrape
 Extracts the following information:
 Book title
