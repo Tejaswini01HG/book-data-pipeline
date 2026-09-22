@@ -28,7 +28,7 @@ The project demonstrates the complete flow of data from web scraping to database
        
 8.Price vs Rating Graph
 
-FEATURES:
+3.FEATURES:
 
 Scrapes the first 20 books from Books to Scrape
 Extracts the following information:
@@ -46,7 +46,7 @@ Loads API data into a Pandas DataFrame
 Exports book data to a CSV file
 Generates a Price vs Rating scatter plot using Matplotlib
 
-Technologies Used:
+4.Technologies Used:
 
 Python,
 Requests,
