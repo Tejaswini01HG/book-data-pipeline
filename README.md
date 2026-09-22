@@ -70,28 +70,62 @@ book_pipeline_project/
 └── price_vs_rating.png
 
 ## How to Run the Project
-''' markdown
+
 ### Step 1: Create Virtual Environment
 
 ```bash
 python -m venv venv
+```
+
 ### Step 2: Activate Virtual Environment
+
+```powershell
 .\venv\Scripts\Activate.ps1
+```
+
 ### Step 3: Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
 ### Step 4: Run the Web Scraper
+
+```bash
 python scraper.py
-###Step 5: Start FastAPI Server
+```
+
+### Step 5: Start FastAPI Server
+
+```bash
 uvicorn main:app --reload
+```
+
 ### Step 6: Open FastAPI in Browser
+
+```text
 http://127.0.0.1:8000
-## Step 7: Open Swagger Documentation
+```
+
+### Step 7: Open Swagger Documentation
+
+```text
 http://127.0.0.1:8000/docs
+```
+
 ### Step 8: Run the Python Client
+
 Open a new terminal, navigate to the project folder, and activate the virtual environment:
+
+```powershell
 .\venv\Scripts\Activate.ps1
-then run:
+```
+
+Then run:
+
+```bash
 python client.py
-'''
+```
+
 
 
