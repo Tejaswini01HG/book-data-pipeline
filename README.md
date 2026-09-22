@@ -62,16 +62,3 @@ Pydantic
 Pandas
 Matplotlib
 
-Project-Structure
-book-data-pipeline/
-│
-├── scraper.py              # Scrapes book data from the website
-├── database.py             # SQLite database and CRUD operations
-├── main.py                 # FastAPI REST API
-├── client.py               # API client, Pandas processing and visualization
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-│
-├── books.db                # SQLite database
-├── exported_books.csv      # Exported book data
-└── price_vs_rating.png     # Generated scatter plot
