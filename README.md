@@ -8,25 +8,25 @@ The project demonstrates the complete flow of data from web scraping to database
 
 ## 2. End-to-End Pipeline
 
-Books to Scrape
-       ↓
-Web Scraping
+1.Books to Scrape
+       
+2.Web Scraping
 (scraper.py)
-       ↓
-SQLite Database
+       
+3.SQLite Database
 (books.db)
-       ↓
-FastAPI REST API
+       
+4.FastAPI REST API
 (main.py)
-       ↓
-Python API Client
+       
+5.Python API Client
 (client.py)
-       ↓
-Pandas DataFrame
-       ↓
-CSV Export + Visualization
-       ↓
-Price vs Rating Graph
+       
+6.Pandas DataFrame
+       
+7.CSV Export + Visualization
+       
+8.Price vs Rating Graph
 
 FEATURES:
 
@@ -48,12 +48,12 @@ Generates a Price vs Rating scatter plot using Matplotlib
 
 Technologies Used:
 
-Python
-Requests
-BeautifulSoup
-SQLite
-FastAPI
-Uvicorn
-Pandas
-Matplotlib
+Python,
+Requests,
+BeautifulSoup,
+SQLite,
+FastAPI,
+Uvicorn,
+Pandas,
+Matplotlib.
 
