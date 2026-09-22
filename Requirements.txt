@@ -1,9 +1,9 @@
 Requirements
 
-1.requests
-2.beautifulsoup4
-3.fastapi
-4.uvicorn
-5.pandas
-6.matplotlib
+requests
+beautifulsoup4
+fastapi
+uvicorn
+pandas
+matplotlib
 
