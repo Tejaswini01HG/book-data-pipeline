@@ -1,36 +1,32 @@
 # End-to-End Book Data Pipeline & Analytics System
 
-## Project Overview
+## 1. Project Overview
 
-This project is an end-to-end book data pipeline that collects book information from the Books to Scrape website, stores the data in a SQLite database, provides REST APIs using FastAPI, and performs data analysis and visualization using Pandas and Matplotlib.
+This project is an end-to-end book data pipeline developed using Python. It collects book information from the Books to Scrape website, stores the data in a SQLite database, provides REST APIs using FastAPI, and performs data processing and visualization using Pandas and Matplotlib.
 
-The pipeline demonstrates the complete flow of data from web scraping to database storage, API access, data processing, CSV export, and visualization.
+The project demonstrates the complete flow of data from web scraping to database storage, API access, data processing, CSV export, and visualization.
 
-## End-to-End Data Pipeline
+## 2. End-to-End Pipeline
 
-text
 Books to Scrape
        ↓
-   Web Scraping
-   (scraper.py)
+Web Scraping
+(scraper.py)
        ↓
- SQLite Database
-    (books.db)
+SQLite Database
+(books.db)
        ↓
- FastAPI REST API
-    (main.py)
+FastAPI REST API
+(main.py)
        ↓
- API Client
-   (client.py)
+Python API Client
+(client.py)
        ↓
- Pandas DataFrame
+Pandas DataFrame
        ↓
- 
- ↓               ↓
-CSV Export       Data Visualization
-(.csv)           (Matplotlib)
-                 ↓
-          Price vs Rating
+CSV Export + Visualization
+       ↓
+Price vs Rating Graph
 
 FEATURES:
 
@@ -58,7 +54,6 @@ BeautifulSoup
 SQLite
 FastAPI
 Uvicorn
-Pydantic
 Pandas
 Matplotlib
 
