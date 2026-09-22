@@ -45,15 +45,15 @@ Retrieves API data using Python Requests
 Loads API data into a Pandas DataFrame
 Exports book data to a CSV file
 Generates a Price vs Rating scatter plot using Matplotlib
+## Technologies Used
 
-## 4.Technologies Used:
-
-Python,
-Requests,
-BeautifulSoup,
-SQLite,
-FastAPI,
-Uvicorn,
-Pandas,
-Matplotlib.
+- Python
+- Requests
+- BeautifulSoup
+- SQLite
+- FastAPI
+- Pydantic
+- Uvicorn
+- Pandas
+- Matplotlib
 
