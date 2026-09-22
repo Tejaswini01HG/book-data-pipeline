@@ -28,23 +28,20 @@ The project demonstrates the complete flow of data from web scraping to database
        
 8.Price vs Rating Graph
 
-## 3. Features
-    
--Scrapes the first 20 books from Books to Scrape
--Extracts the following information:
--Book title
--Price
--Stock availability
--Rating
--Converts book ratings from text values such as One, Two, Three, Four, and Five into numeric values from 1 to 5
--Stores scraped data in a SQLite database
--Implements CRUD operations using an object-oriented database manager
--Provides REST API endpoints using FastAPI
--Uses Pydantic for API data validation
--Retrieves API data using Python Requests
--Loads API data into a Pandas DataFrame
--Exports book data to a CSV file
--Generates a Price vs Rating scatter plot using Matplotlib
+### Features
+
+- Scrapes the first 20 books from Books to Scrape
+- Extracts book title, price, stock availability, and rating
+- Converts ratings from One, Two, Three, Four, and Five into numeric values from 1 to 5
+- Stores scraped data in a SQLite database
+- Implements CRUD operations using an object-oriented database manager
+- Provides REST API endpoints using FastAPI
+- Uses Pydantic for API data validation
+- Retrieves API data using Python Requests
+- Loads API data into a Pandas DataFrame
+- Exports book data to a CSV file
+- Generates a Price vs Rating scatter plot using Matplotlib
+  
 ## Technologies Used
 
 - Python
