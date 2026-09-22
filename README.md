@@ -70,7 +70,7 @@ book_pipeline_project/
 └── price_vs_rating.png
 
 ## How to Run the Project
-
+''' markdown
 ### Step 1: Create Virtual Environment
 
 ```bash
@@ -92,6 +92,6 @@ Open a new terminal, navigate to the project folder, and activate the virtual en
 .\venv\Scripts\Activate.ps1
 then run:
 python client.py
-
+'''
 
 
