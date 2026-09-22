@@ -66,6 +66,7 @@ book_pipeline_project/
 ├── exported_books.csv
 └── price_vs_rating.png
 
+
 ## How to Run the Project
 
 ### Step 1: Create Virtual Environment
